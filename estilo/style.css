@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 127, 243);
+}
+h1 {
+     text-align: center;
+     color: white;
+     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.486);
+}
+section {
+    background-color: white;
+    padding: 15px;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.486);
+    border-radius: 20px;
+}
+#btn {
+    background-color: rgb(120, 120, 243);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+#btn:hover {
+    background-color: rgb(91, 91, 241);
+    cursor: pointer;
+    font-size: 15px;
+}
