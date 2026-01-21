@@ -1,16 +1,16 @@
 function verificar() {
-    var data = new Date()
-    var ano = data.getFullYear()
-    var fAno = document.getElementById('txtano')
-    var res = document.getElementById('res')
+    let data = new Date()
+    let ano = data.getFullYear()
+    let fAno = document.getElementById('txtano')
+    let res = document.getElementById('res')
 
     if (fAno.value.length == 0 || fAno.value > ano) {
         window.alert('Verifique os dados e tente novamente!')
     } else {
-        var fsex = document.getElementsByName('radsex')
-        var idade = ano - Number(fAno.value)
-        var genero = ''
-        var img = document.createElement('img')
+        let fsex = document.getElementsByName('radsex')
+        let idade = ano - Number(fAno.value)
+        let genero = ''
+        let img = document.createElement('img')
         img.setAttribute('id', 'foto')
 
         if (fsex[0].checked) {
